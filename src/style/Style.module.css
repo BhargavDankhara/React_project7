@@ -1,0 +1,147 @@
+.container {
+    min-height: 100vh;
+    margin: 0;
+    color: #ff5733;
+    background: #262626;
+  }
+  
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  
+  .loginfrm {
+    margin: auto;
+    max-width: 600px;
+    min-height: 95vh;
+    position: relative;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 15px 50px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 80px 60px 40px 60px;
+    background: rgba(40, 41, 44, 0.9);
+  }
+  
+  .sign {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .tab,
+  .label,
+  .button {
+    text-transform: capitalize;
+  }
+  
+  .tab {
+    font-size: 20px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    margin: 0 10px 8px 0;
+    display: inline-block;
+    color: #e1e1e1;
+  
+  }
+  
+  .loginForm {
+    min-height: 320px;
+    position: relative;
+  }
+  
+  .group {
+    margin-bottom: 12px;
+  }
+  
+  .label,
+  .input,
+  .button {
+    width: 100%;
+    color: #eeeeee;
+    display: block;
+  }
+  
+  .input,
+  .button {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.601);
+  }
+  
+  .checkLabel {
+    color: #ffffff;
+    font-weight: 300;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    display: block;
+    padding: 2px 8px;
+  }
+  
+  .checkInput {
+    color: #000000;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    display: block;
+    padding: 2px 8px;
+  }
+  
+  .label {
+    color: #bbb;
+    font-size: 11px;
+  }
+  
+  .button {
+    background: #ff6b6b;
+    cursor: pointer;
+  }
+  
+  .hr {
+    height: 2px;
+    margin: 12px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .loginWrapTable {
+    margin: auto;
+    width: 100%;
+    min-height: 95vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 10px 15px 0 rgba(255, 255, 255, 0.3), 0 15px 50px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .table {
+    width: 100%;
+    color: #eee;
+    text-align: center;
+  }
+  
+  .table th {
+    font-size: 22px;
+    padding: 8px 8px 16px;
+    border-bottom: 2px solid white;
+  }
+  
+  .table td {
+    font-size: 14px;
+    padding: 8px 0;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.333);
+  }
+  
+  .smButton {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 4px;
+    background-color: #e63946;
+    padding: 8px;
+  }
